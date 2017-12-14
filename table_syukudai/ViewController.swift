@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     //格納する配列
-    var nameList:[String] = ["康平", "遠山", "亜美"]
+    var nameList:[String] = ["kohe", "kin", "ami"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return nameList.count
